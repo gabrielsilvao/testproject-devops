@@ -1,0 +1,9 @@
+version: "3.7"
+
+services:
+    web:
+        image: web_flask
+            deploy:
+                replicas: 3
+            ports:
+                - "80:80"
